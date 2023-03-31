@@ -11,6 +11,16 @@
 		595F71D229D6F5DE002E3B4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71D129D6F5DE002E3B4D /* ContentView.swift */; };
 		595F71D429D6F5DF002E3B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595F71D329D6F5DF002E3B4D /* Assets.xcassets */; };
 		595F71D729D6F5DF002E3B4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595F71D629D6F5DF002E3B4D /* Preview Assets.xcassets */; };
+		595F71DE29D6F6D6002E3B4D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71DD29D6F6D6002E3B4D /* Extensions.swift */; };
+		595F71E029D6F7B2002E3B4D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71DF29D6F7B2002E3B4D /* HomeView.swift */; };
+		595F71E229D6FA72002E3B4D /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71E129D6FA72002E3B4D /* TransactionModel.swift */; };
+		595F71E429D6FB07002E3B4D /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71E329D6FB07002E3B4D /* PreviewData.swift */; };
+		595F71E629D70299002E3B4D /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71E529D70299002E3B4D /* TransactionRow.swift */; };
+		595F71E829D7152C002E3B4D /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71E729D7152C002E3B4D /* TransactionListViewModel.swift */; };
+		595F71EA29D71F73002E3B4D /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71E929D71F73002E3B4D /* RecentTransactionList.swift */; };
+		595F71EC29D72DE1002E3B4D /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F71EB29D72DE1002E3B4D /* TransactionListView.swift */; };
+		595F71F329D73157002E3B4D /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 595F71F229D73157002E3B4D /* OrderedCollections */; };
+		595F71F629D7369D002E3B4D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 595F71F529D7369D002E3B4D /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,14 @@
 		595F71D129D6F5DE002E3B4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		595F71D329D6F5DF002E3B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		595F71D629D6F5DF002E3B4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		595F71DD29D6F6D6002E3B4D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		595F71DF29D6F7B2002E3B4D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		595F71E129D6FA72002E3B4D /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		595F71E329D6FB07002E3B4D /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		595F71E529D70299002E3B4D /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		595F71E729D7152C002E3B4D /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		595F71E929D71F73002E3B4D /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		595F71EB29D72DE1002E3B4D /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595F71F329D73157002E3B4D /* OrderedCollections in Frameworks */,
+				595F71F629D7369D002E3B4D /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +71,11 @@
 		595F71CE29D6F5DE002E3B4D /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				595F71F029D72FB1002E3B4D /* Models */,
+				595F71EF29D72FA5002E3B4D /* ViewModels */,
+				595F71EE29D72F84002E3B4D /* Components */,
+				595F71ED29D72F75002E3B4D /* Views */,
+				595F71DD29D6F6D6002E3B4D /* Extensions.swift */,
 				595F71CF29D6F5DE002E3B4D /* Expense_TrackerApp.swift */,
 				595F71D129D6F5DE002E3B4D /* ContentView.swift */,
 				595F71D329D6F5DF002E3B4D /* Assets.xcassets */,
@@ -63,8 +88,43 @@
 			isa = PBXGroup;
 			children = (
 				595F71D629D6F5DF002E3B4D /* Preview Assets.xcassets */,
+				595F71E329D6FB07002E3B4D /* PreviewData.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		595F71ED29D72F75002E3B4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				595F71EB29D72DE1002E3B4D /* TransactionListView.swift */,
+				595F71DF29D6F7B2002E3B4D /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		595F71EE29D72F84002E3B4D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				595F71E529D70299002E3B4D /* TransactionRow.swift */,
+				595F71E929D71F73002E3B4D /* RecentTransactionList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		595F71EF29D72FA5002E3B4D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				595F71E729D7152C002E3B4D /* TransactionListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		595F71F029D72FB1002E3B4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				595F71E129D6FA72002E3B4D /* TransactionModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +143,10 @@
 			dependencies = (
 			);
 			name = "Expense Tracker";
+			packageProductDependencies = (
+				595F71F229D73157002E3B4D /* OrderedCollections */,
+				595F71F529D7369D002E3B4D /* SwiftUICharts */,
+			);
 			productName = "Expense Tracker";
 			productReference = 595F71CC29D6F5DE002E3B4D /* Expense Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +175,10 @@
 				Base,
 			);
 			mainGroup = 595F71C329D6F5DE002E3B4D;
+			packageReferences = (
+				595F71F129D73157002E3B4D /* XCRemoteSwiftPackageReference "swift-collections" */,
+				595F71F429D7369D002E3B4D /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 595F71CD29D6F5DE002E3B4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595F71E229D6FA72002E3B4D /* TransactionModel.swift in Sources */,
 				595F71D229D6F5DE002E3B4D /* ContentView.swift in Sources */,
+				595F71E429D6FB07002E3B4D /* PreviewData.swift in Sources */,
+				595F71E029D6F7B2002E3B4D /* HomeView.swift in Sources */,
+				595F71E629D70299002E3B4D /* TransactionRow.swift in Sources */,
+				595F71DE29D6F6D6002E3B4D /* Extensions.swift in Sources */,
+				595F71EA29D71F73002E3B4D /* RecentTransactionList.swift in Sources */,
+				595F71EC29D72DE1002E3B4D /* TransactionListView.swift in Sources */,
 				595F71D029D6F5DE002E3B4D /* Expense_TrackerApp.swift in Sources */,
+				595F71E829D7152C002E3B4D /* TransactionListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +415,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		595F71F129D73157002E3B4D /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		595F71F429D7369D002E3B4D /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		595F71F229D73157002E3B4D /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 595F71F129D73157002E3B4D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+		595F71F529D7369D002E3B4D /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 595F71F429D7369D002E3B4D /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 595F71C429D6F5DE002E3B4D /* Project object */;
 }

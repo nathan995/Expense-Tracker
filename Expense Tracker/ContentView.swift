@@ -9,18 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+           HomeView()
+                
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    static let transactionListVM = {
+        let transactionListVM = TransactionListViewModel()
+        transactionListVM.transactions = transactionListPreviewData
+        return transactionListVM
+    }()
     static var previews: some View {
         ContentView()
+            .environmentObject(transactionListVM)
     }
 }
